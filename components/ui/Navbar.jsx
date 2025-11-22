@@ -1,6 +1,7 @@
 import React from "react";
 import Input from "./Input";
 import { FaBars, FaSearch, FaUser } from "react-icons/fa";
+import Link from "next/link";
 
 function Navbar({toggleSidebar}) {
   return (
@@ -13,12 +14,14 @@ function Navbar({toggleSidebar}) {
       </button>
       <div className="flex gap-4 h-[67%] w-[30%] min-w-60 justify-between">
         <Input />
-        <button
+        <div className="flex items-center">
+        <Link
+          href="/dashboard/profile"
           type="button"
-          className="text-gray-300 hover:text-white text-xl w-[10%]"
-        >
+          className="text-gray-300 hover:text-white text-2xl w-[10%]">
           <FaUser/>
-        </button>
+        </Link>
+        </div>
       </div>
     </div>
   );

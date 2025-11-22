@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Userprofile from "../../../components/ui/Userprofile";
 
 export default function Home() {
   return (
     <div>
-      <p>Welcome to the User profile page!</p>
+      <Userprofile />
     </div>
   );
 }

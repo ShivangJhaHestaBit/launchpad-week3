@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaTachometerAlt, FaBookOpen, FaLayerGroup, FaChartBar, FaTable } from "react-icons/fa";
+import { FaTachometerAlt, FaBookOpen, FaLayerGroup, FaChartBar, FaTable, FaList } from "react-icons/fa";
 
 function Sidebar() {
   return (
@@ -13,6 +13,10 @@ function Sidebar() {
         <Link href="/dashboard" className="flex items-center gap-3 p-2 hover:bg-gray-800 text-white cursor-pointer">
           <FaTachometerAlt className="text-lg" />
           <span>Dashboard</span>
+        </Link>
+        <Link href="/dashboard/users" className="flex items-center gap-3 p-2 hover:bg-gray-800 text-white cursor-pointer">
+          <FaList className="text-lg" />
+          <span>User List</span>
         </Link>
       </div>
       <div>

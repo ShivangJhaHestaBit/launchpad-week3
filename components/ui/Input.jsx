@@ -9,8 +9,7 @@ function Input(){
           />
           <button
             type="submit"
-            className="w-[10%] h-[100%] bg-blue-600 px-3 py-2.5 hover:bg-blue-700 rounded-r-md text-white min-w-10"
-          >
+            className="w-[10%] h-[100%] bg-blue-600 px-3 py-2.5 hover:bg-blue-700 rounded-r-md text-white min-w-10">
             <FaSearch className=""/>
           </button>
         </div>
