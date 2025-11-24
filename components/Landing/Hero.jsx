@@ -5,12 +5,11 @@ import Image from "next/image";
 import { AuroraText } from "@/components/ui/aurora-text"
 import Featuregrid from "./Featuregrid";
 import Footer from "./Footer";
-import Login from "@/components/ui/Login";
+import Link from "next/link";
 function Hero() {
-  const [showLogin, setShowLogin] = useState(false);
   return (
     <div className="relative">
-      <div className={`${showLogin ? "blur-sm" : ""}`}>
+      <div>
         <div className="w-full min-h-screen px-6 py-12 flex flex-col items-center">
           <h1 className="text-6xl w-[100%] h-[19%] font-bold text-center mb-5 z-11">
             Start <AuroraText className="text-7xl">BootStrap!</AuroraText>
@@ -20,15 +19,14 @@ function Hero() {
               <TextAnimate animation="slideLeft" by="word" as="p" className="text-3xl md:text-5xl font-bold leading-snug z-11">
                 This is a sample landing page build using Tailwindcss and React.
               </TextAnimate>
-              <TextAnimate animation="fadeIn" by="line" as="p" className="mt-4 text-lg text-black z-11">
+              <TextAnimate animation="fadeIn" by="line" as="p" className="mt-4 mb-8 text-lg text-black z-11">
                 In this project i have build several components that are responsive and are used at various places in the project.
               </TextAnimate>
-              <button
-                onClick={() => setShowLogin(true)}
-                className="mt-8 bg-orange-400 hover:bg-orange-500 text-white px-8 py-3 rounded-full font-semibold text-lg transition z-11"
+              <Link href="/login"
+                className=" bg-orange-400 hover:bg-orange-500 text-white px-8 py-3 rounded-full font-semibold text-lg transition z-11"
               >
                 Sign up
-              </button>
+              </Link>
             </div>
             <Image
               src="/uiux.png"
@@ -42,10 +40,6 @@ function Hero() {
         </div>
         <Footer />
       </div>
-      {showLogin && (
-        <Login onClose={() => setShowLogin(false)} />
-      )}
-
     </div>
   );
 }

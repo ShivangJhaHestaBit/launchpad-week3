@@ -1,4 +1,10 @@
-import { BorderBeam } from "@/components/ui/border-beam";
+export const metadata = {
+    title: "Dashboard — Launchpad Week 3",
+    description: "Interactive dashboard showing summary cards, area and bar charts, and a data table for Launchpad Week 3.",
+    keywords: ["launchpad", "dashboard", "charts", "analytics", "react", "nextjs"],
+    authors: [{ name: "Shivang Jha" }],
+};
+
 import Card from "@/components/ui/Card";
 import Graph from "@/components/ui/Graph";
 import Datatable from "@/components/ui/Datatable";

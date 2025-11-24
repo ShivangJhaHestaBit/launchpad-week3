@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import { FaTachometerAlt, FaBookOpen, FaLayerGroup, FaChartBar, FaTable, FaList } from "react-icons/fa";
-
 function Sidebar() {
   return (
     <div className="w-[100%] h-screen bg-gray-900 text-gray-300 flex flex-col p-4 space-y-6">

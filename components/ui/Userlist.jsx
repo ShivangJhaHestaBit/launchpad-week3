@@ -6,7 +6,7 @@ const sampleUsers = [
   { name: "Arpit Saxena", email: "Arpit27@gamil.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
   { name: "Harshath Venkatesh", email: "HarshathHV18@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
   { name: "Aakash Sheoran", email: "Aakash.sheoran@gamil.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
-  { name: "Shobbit Raj", email: "Shobbit.raj@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
+  { name: "Shobhit Raj", email: "Shobbit.raj@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
   { name: "Chandramohan", email: "Chandramohan297@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
   { name: "Manya Sharma", email: "Manya.Sharma@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
   { name: "Vidhi", email: "Vidhi23802@gmail.com", role: "User", created: "18/10/2024 05:27", updated: "18/10/2024 05:27" },
